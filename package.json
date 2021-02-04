@@ -1,6 +1,28 @@
 {
-  "name": "root",
+  "name": "misc-front",
   "private": true,
+  "scripts": {
+    "format": "prettier --write *.json README.md"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">= 14.15.1"
+  },
+  "lint-staged": {
+    "*.(json|md)": "yarn format"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
     "husky": "^4.3.8",
     "lerna": "^3.22.1",
