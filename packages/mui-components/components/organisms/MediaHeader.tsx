@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 export interface HeaderProps {
-  categories?: Array<any>
+  categories?: Array<{ title: string; url: string }>
   title: string
 }
 
