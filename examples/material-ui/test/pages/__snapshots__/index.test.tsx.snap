@@ -3,119 +3,177 @@
 exports[`Home page matches snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="jsx-2250570153 container"
+    class="MuiContainer-root MuiContainer-maxWidthLg"
   >
-    <main
-      class="jsx-2250570153"
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-10"
     >
-      <h1
-        class="jsx-2250570153 title"
-      >
-        Welcome to 
-        <a
-          class="jsx-2250570153"
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
-      </h1>
-      <p
-        class="jsx-2250570153 description"
-      >
-        Get started by editing 
-        <code
-          class="jsx-2250570153"
-        >
-          pages/index.tsx
-        </code>
-      </p>
-      <button
-        class="jsx-2250570153"
-      >
-        Test Button
-      </button>
       <div
-        class="jsx-2250570153 grid"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h1"
+        >
+          Welcome to 
+          <a
+            href="https://nextjs.org"
+          >
+            Next.js!
+          </a>
+        </h1>
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Get started by editing 
+          <code>
+            pages/index.tsx
+          </code>
+        </p>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Test Button
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
       >
         <a
-          class="jsx-2250570153 card"
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
           href="https://nextjs.org/docs"
         >
-          <h3
-            class="jsx-2250570153"
+          <div
+            class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
           >
-            Documentation →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-        <a
-          class="jsx-2250570153 card"
-          href="https://nextjs.org/learn"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Learn →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Learn about Next.js in an interactive course with quizzes!
-          </p>
-        </a>
-        <a
-          class="jsx-2250570153 card"
-          href="https://github.com/vercel/next.js/tree/master/examples"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Examples →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Discover and deploy boilerplate example Next.js projects.
-          </p>
-        </a>
-        <a
-          class="jsx-2250570153 card"
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        >
-          <h3
-            class="jsx-2250570153"
-          >
-            Deploy →
-          </h3>
-          <p
-            class="jsx-2250570153"
-          >
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              Documentation →
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Find in-depth information about Next.js features and API.
+            </p>
+          </div>
         </a>
       </div>
-    </main>
-    <footer
-      class="jsx-2250570153"
-    >
-      <a
-        class="jsx-2250570153"
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
       >
-        Powered by 
-        <img
-          alt="Vercel Logo"
-          class="jsx-2250570153 logo"
-          src="/vercel.svg"
-        />
-      </a>
-    </footer>
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="https://nextjs.org/learn"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              Learn →
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Learn about Next.js in an interactive course with quizzes!
+            </p>
+          </div>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="https://github.com/vercel/next.js/tree/master/examples"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              Examples →
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Discover and deploy boilerplate example Next.js projects.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              Deploy →
+            </h3>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-content-xs-center MuiGrid-justify-xs-center MuiGrid-grid-xs-12"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            Powered by 
+            <div
+              style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+            >
+              <div
+                style="box-sizing: border-box; display: block; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  role="presentation"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjM0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+                  style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+                />
+              </div>
+              <img
+                alt="Vercel Logo"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
