@@ -25,12 +25,12 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 export interface HeaderProps {
-  sections: Array<any>
+  categories?: Array<any>
   title: string
 }
 
 export const Header: FunctionComponent<HeaderProps> = ({
-  sections,
+  categories = [],
   title,
 }: HeaderProps) => {
   const classes = useStyles()
@@ -56,24 +56,28 @@ export const Header: FunctionComponent<HeaderProps> = ({
           Sign up
         </Button>
       </Toolbar>
-      <Toolbar
-        component="nav"
-        variant="dense"
-        className={classes.toolbarSecondary}
-      >
-        {sections.map((section) => (
-          <Link
-            color="inherit"
-            noWrap
-            key={section.title}
-            variant="body2"
-            href={section.url}
-            className={classes.toolbarLink}
-          >
-            {section.title}
-          </Link>
-        ))}
-      </Toolbar>
+      {[] === categories ? (
+        <></>
+      ) : (
+        <Toolbar
+          component="nav"
+          variant="dense"
+          className={classes.toolbarSecondary}
+        >
+          {categories.map(({ title, url }) => (
+            <Link
+              color="inherit"
+              noWrap
+              key={title}
+              variant="body2"
+              href={url}
+              className={classes.toolbarLink}
+            >
+              {title}
+            </Link>
+          ))}
+        </Toolbar>
+      )}
     </React.Fragment>
   )
 }

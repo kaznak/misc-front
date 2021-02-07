@@ -5,7 +5,7 @@ import { Story, Meta } from '@storybook/react/types-6-0'
 import { HeaderProps, Header } from './MediaHeader'
 
 export default {
-  title: 'Organisms/Header',
+  title: 'Organisms/MediaHeader',
   component: Header,
 } as Meta
 
@@ -13,7 +13,7 @@ const Template: Story<HeaderProps> = (args) => <Header {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
-  sections: [
+  categories: [
     { title: 'Technology', url: '#' },
     { title: 'Design', url: '#' },
     { title: 'Culture', url: '#' },
@@ -25,5 +25,11 @@ Primary.args = {
     { title: 'Style', url: '#' },
     { title: 'Travel', url: '#' },
   ],
+  title: 'Blog',
+}
+
+export const NoCategories = Template.bind({})
+NoCategories.args = {
+  categories: [],
   title: 'Blog',
 }
