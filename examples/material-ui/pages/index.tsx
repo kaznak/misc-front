@@ -4,6 +4,7 @@ import Image from 'next/image'
 import {
   Container,
   Grid,
+  Box,
   Paper,
   Typography,
   Link,
@@ -81,7 +82,7 @@ export const Home = (): JSX.Element => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Typography>
+            <Typography component="div">
               Powered by{' '}
               <Image
                 src="/vercel.svg"
