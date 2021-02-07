@@ -25,7 +25,13 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         {/* PWA primary color */}
-        <meta name="theme-color" content={muiTheme.palette.primary.main} />
+        <meta
+          key="meta-theme-color"
+          name="theme-color"
+          content={muiTheme.palette.primary.main}
+        />
+        <title key="title">Create Next App</title>
+        <link key="link-icon" rel="icon" href="/favicon.ico" />
       </Head>
       <ThemeProvider theme={muiTheme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

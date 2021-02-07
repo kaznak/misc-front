@@ -14,8 +14,7 @@ import {
 export const Home = (): JSX.Element => (
   <>
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <title key="title">Create Next App: Top page</title>
     </Head>
     <Container>
       <Grid container spacing={10}>
