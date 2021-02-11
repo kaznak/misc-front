@@ -4,7 +4,7 @@ import { Header } from './Header'
 import './page.css'
 
 export interface PageProps {
-  user?: {}
+  user?: NonNullable<any>
   onLogin: () => void
   onLogout: () => void
   onCreateAccount: () => void
