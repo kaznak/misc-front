@@ -4,7 +4,6 @@ import Image from 'next/image'
 import {
   Container,
   Grid,
-  Box,
   Paper,
   Typography,
   Link,
